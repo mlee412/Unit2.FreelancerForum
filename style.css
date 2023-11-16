@@ -1,0 +1,38 @@
+body {
+  font-family: arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin: 0 auto;
+  border: solid;
+  padding: 35px;
+  box-shadow: 5px 5px 15px grey;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#freelancers {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+td {
+  text-align: center;
+  /* border: solid; */
+}
+
+#averagePrice {
+  text-align: center;
+  font-size: 25px;
+}
